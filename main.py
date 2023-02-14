@@ -23,4 +23,13 @@ flashcard_word = canvas.create_text(400, 263, text="", font=("Ariel", 60, "bold"
 canvas.config(bg="#F5F5DC", highlightthickness=0)
 canvas.grid(row=0, column=0, columnspan=2)
 
+# Create buttons for wrong and correct answers
+wrong_button = Button(image=wrong_image, highlightthickness=0, command=next_flashcard)
+wrong_button.grid(row=1, column=0)
+
+correct_button = Button(
+    image=correct_image, highlightthickness=0, command=correct_flashcard
+)
+correct_button.grid(row=1, column=1)
+
 window.mainloop()
