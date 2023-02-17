@@ -26,6 +26,3 @@ You can also modify the graphics used for the front and back of the flashcard by
 
 ## Contributing
 This program is a simple demo project and is not currently accepting contributions.
-
-## License
-This project is licensed under the terms of the MIT license. See the LICENSE file for details.
